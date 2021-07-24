@@ -6,3 +6,10 @@ Encryption Technique summary <br />
 3. OTP based Encryption using the Key generated in Chaotic Map and the significant pixels in the Original Image <br />
 4. Generate a special key while encryption for extra security and to be used in the Decryption phase
 5. Decryption
+
+<p align="center">
+  <img src="https://github.com/such5996/Edge-based-Image-Encryption/blob/main/XRay.jpg" width="350" title="Original Image">
+  <img src="https://github.com/such5996/Edge-based-Image-Encryption/blob/main/Edge_Detected.jpg" width="350" title="Edge Map">
+  <img src="https://github.com/such5996/Edge-based-Image-Encryption/blob/main/Encrypted_Image.jpg" width="350" title="Encrypted Image">
+  <img src="https://github.com/such5996/Edge-based-Image-Encryption/blob/main/Decrypted_Image.jpg" width="350" title="Decrypted Image">
+</p>
