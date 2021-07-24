@@ -46,7 +46,8 @@ for i in range(lt):
             s =  result[i][j]
             if(s != 0):
                 p = p + s
-sd = int((p / (lt * bt)) % 256)
+sd = int((p / (lt * bt)) % 256) #Significant degree
+
 edge_detected = result.flatten()
 significant_image = np.array(edge_detected)
 #print("significant_image", significant_image)
@@ -98,7 +99,7 @@ for i in range (0 , lt):
 c = Image.fromarray(en)
 c.show(title="Cipher")
 
-#Decryption
+#Decryption Process
 decrypt = []
 l = 0
 for i in range (0, len(input_image) ):
