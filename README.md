@@ -1,6 +1,8 @@
 # Edge-based-Image-Encryption
-It is an Edge based Image Lightweight Encryption <br />
-Code steps <br />
-1. Generate edge map of the image <br />
-2. Generate a key based of Chaotic Map <br />
-3. OTP based Encryption using the Key generated in Chaotic Map and And the Edge Map <br />
+It is an Edge based Image Lightweight Encryption. It is based on the above paper mentioned<br />
+Encryption Technique summary <br />
+1. Generate edge map of the image and get the significant blocks (Prewitt Edge Detection used) <br />
+2. Generate a key with a Chaotic Map. The key sequence is equal to the number of significant blocks in the edge map <br />
+3. OTP based Encryption using the Key generated in Chaotic Map and the significant pixels in the Original Image <br />
+4. Generate a special key while encryption for extra security and to be used in the Decryption phase
+5. Decryption
