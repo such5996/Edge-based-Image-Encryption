@@ -8,7 +8,7 @@ Encryption Technique summary <br />
 5. Decryption
 
 <p align="center">
-  <img src="https://github.com/such5996/Edge-based-Image-Encryption/blob/main/XRay.jpg" width="350" title="Original Image">
+  <img src="https://github.com/such5996/Edge-based-Image-Encryption/blob/main/XRay.jpg" width="350" alt="accessibility text">
   <img src="https://github.com/such5996/Edge-based-Image-Encryption/blob/main/Edge_Detected.jpg" width="350" title="Edge Map">
   <img src="https://github.com/such5996/Edge-based-Image-Encryption/blob/main/Encrypted_Image.jpg" width="350" title="Encrypted Image">
   <img src="https://github.com/such5996/Edge-based-Image-Encryption/blob/main/Decrypted_Image.jpg" width="350" title="Decrypted Image">
